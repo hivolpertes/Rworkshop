@@ -1,7 +1,7 @@
 # R workshop given in SAM
-# Sept 18, 2020
+## Sept 18, 2020
 
-# Adapted from materials from Moin Syed, University of Minnesota
-# https://osf.io/9gq4a/
+### Adapted from materials from Moin Syed, University of Minnesota
+### https://osf.io/9gq4a/
 
-# Covers basic data management, descriptives, plotting, and basic statistical tests
+### Covers basic data management, descriptives, plotting, and basic statistical tests
