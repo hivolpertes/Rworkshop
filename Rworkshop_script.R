@@ -158,6 +158,7 @@ ggplot(dat, aes(meim_mean, fill = usborn)) +
   geom_vline(data = means, (aes(xintercept = meim_mean, linetype = usborn)),
              color = "black", size = 2)
 
+# Other ideas: correlation tables
 
 # 6. Plotting relationships -------------------------------------------------------------------
 
