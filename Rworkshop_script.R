@@ -22,6 +22,7 @@
 # Fourth Law of Learning R:
 # When you're getting errors, always look first for typos
 # Tip: R is cApS SenSItiVe
+# https://twitter.com/algaebarnacle/status/1305858377537531909?s=20
 
 
 # 1. Orientation to Rstudio -------------------------------------------------------------------
@@ -33,19 +34,20 @@
 # minorities
 # Variables included:
 # 1) Participant ID
-# 2) Whether tha participant was born in the US (yes/no)
+# 2) Whether that participant was born in the US (yes/no)
 # 3) Whether the participant was the first in their family to attend college (yes/no)
-# 4) 12-item Multigrup Ethnic Identity Measure (MEIM; Roberts et al., 1999)
+# 4) 12-item Multigruop Ethnic Identity Measure (MEIM; Roberts et al., 1999)
 # 5) 5-item Satisfaction with Life Scale (SWL; Diener et al., 1999)
 
 # get working directory
 getwd()
 # set working directory
-setwd("/Users/hivolpertes/Documents/Administrative/UTEP/2020 Fall SAM/R workshop")
-# Note: I highly encourage you to use Projects. Where-ever you save the Rproject file, it will use 
-# that as the working directory
-
+setwd("/Users/hivolpertes/Documents/Administrative/UTEP/2020 Fall SAM/Rworkshop")
 dat = read.table("EID_Data_MCAE2016.csv", sep=",", header=T)
+
+# Note: I HIGHLY encourage you to use Projects so that you don't have to reset the working directory
+# every time you open up Rstudio. Where-ever you save the Rproject file, it will use that as the 
+# working directory
 
 
 # 3. Load packages ----------------------------------------------------------------------------
